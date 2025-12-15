@@ -1,5 +1,5 @@
 import React from 'react';
-import { AnalysisResponse, JournalEntry } from '../types';
+import { AnalysisResponse } from '../types';
 
 interface AnalysisResultProps {
   data: AnalysisResponse;

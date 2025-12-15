@@ -1,5 +1,5 @@
 import { GoogleGenAI, Type } from "@google/genai";
-import { ClaimInput, ClaimStatus, AnalysisResponse } from "../types";
+import { ClaimInput, AnalysisResponse } from "../types";
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
